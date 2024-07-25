@@ -1,14 +1,27 @@
-import { Home } from "lucide-react";
 import Index from "./pages/Index.jsx";
+import Overview from "./pages/Overview.jsx";
+import Moons from "./pages/Moons.jsx";
+import Exploration from "./pages/Exploration.jsx";
 
-/**
- * Central place for defining the navigation items. Used for navigation components and routing.
- */
 export const navItems = [
   {
     title: "Home",
     to: "/",
-    icon: <Home className="h-4 w-4" />,
     page: <Index />,
+  },
+  {
+    title: "Overview",
+    to: "/overview",
+    page: <Overview />,
+  },
+  {
+    title: "Moons",
+    to: "/moons",
+    page: <Moons />,
+  },
+  {
+    title: "Exploration",
+    to: "/exploration",
+    page: <Exploration />,
   },
 ];
