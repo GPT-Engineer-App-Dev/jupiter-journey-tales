@@ -1,9 +1,9 @@
 const Moons = () => {
   const majorMoons = [
-    { name: "Io", diameter: 3,642, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
-    { name: "Europa", diameter: 3,122, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
-    { name: "Ganymede", diameter: 5,268, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
-    { name: "Callisto", diameter: 4,821, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
+    { name: "Io", diameter: 3642, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
+    { name: "Europa", diameter: 3122, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
+    { name: "Ganymede", diameter: 5268, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
+    { name: "Callisto", diameter: 4821, discoveredBy: "Galileo Galilei", discoveryYear: 1610 },
   ];
 
   return (
