@@ -6,7 +6,7 @@ const Overview = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-4">Key Facts</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li>Diameter: 142,984 km (88,846 miles)</li>
+            <li>Diameter: 142984 km (88846 miles)</li>
             <li>Mass: 1.90 × 10^27 kg (317.8 Earth masses)</li>
             <li>Average distance from Sun: 778 million km (484 million miles)</li>
             <li>Rotation period: 9.93 hours</li>
